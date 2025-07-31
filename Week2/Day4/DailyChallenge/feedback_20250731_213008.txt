@@ -1,0 +1,10 @@
+URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week2/Day4/DailyChallenge/dailychallenge.py
+suggestions for improvement:
+- In Challenge 1, the code splits the input string using `split()` without a separator.  This means it splits on whitespace, not commas as specified.  It should use `random_phrase.split(',')`.
+- Challenge 2's `longest_word` function correctly identifies the longest word, but the chapter emphasizes handling punctuation within words.  The current solution would treat punctuation as word separators.  It should consider punctuation within words when calculating length.
+Brief justification:
+- correctness: Challenge 1's code partially addresses the problem; it sorts words, but the splitting is incorrect, failing to meet the comma-separated input requirement mentioned in the chapter content.  Challenge 2's code is mostly correct in finding the longest word, but doesn't fully comply with the instructions to treat apostrophes, commas and periods as part of the words; this is a partial fulfillment of the chapter content.
+- readability: The code is well-structured and relatively easy to understand. Variable names are descriptive. The comments explain each step.
+- performance: The algorithms used are efficient for both challenges. The time complexity for sorting is O(n log n), and the longest word finding is O(n), which are optimal for these tasks.
+- security: There are no security vulnerabilities in this code; it simply takes user input and performs string manipulations. No external resources or sensitive data are involved.
+
