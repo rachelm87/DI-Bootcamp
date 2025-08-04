@@ -1,0 +1,11 @@
+URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week1/Day5/DailyChallenge/DailyChallenge.py
+suggestions for improvement:
+- The code for Challenge 1 could be slightly more concise by combining the type checking and index validation into a single loop.
+- In Challenge 2, the data cleaning process could be improved by using a more robust method to handle potential errors in price formatting, for example, using regular expressions.
+- Consider adding more comprehensive error handling (e.g., `try-except` blocks) to gracefully handle invalid user inputs or unexpected data formats in both challenges.
+Brief justification:
+- correctness: The code accurately implements both challenges as described in the Chapter Content/Questions.  Challenge 1 correctly creates a dictionary mapping letters to their indices in a word. Challenge 2 correctly processes a dictionary of items and prices, filters based on budget, and returns a sorted list of affordable items, handling the 'Nothing' case. All examples provided in the instructions are handled properly.
+- readability: The code is generally well-structured and easy to follow. The use of descriptive variable names and comments helps to improve readability.  However, some code sections could be simplified to improve conciseness.
+- performance: The code's performance is efficient for the given tasks.  The time complexity for both challenges is linear (O(n)), which is appropriate given the input sizes.  Minor optimizations could be made to reduce the number of iterations.
+- security: The code does not contain any apparent security vulnerabilities.  It handles user input and data processing in a safe manner; however, adding error handling (as suggested above) would further increase robustness.
+
