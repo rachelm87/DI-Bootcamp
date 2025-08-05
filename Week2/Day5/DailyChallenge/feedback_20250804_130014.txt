@@ -1,0 +1,10 @@
+URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week2/Day5/DailyChallenge/DailyChallenge.py
+suggestions for improvement:
+- The `get_info` method's output doesn't exactly match the example's formatting.  It should use string formatting to align the animal names and counts into columns, and the 'E-I-E-I-O!' should be aligned to the right.
+- The `get_info` method's  print statement at the beginning doesn't match the example. The example states that it should only print the farm's name and the animals and their counts, while the code includes an additional sentence 'and on his farm, he had:'
+Brief justification:
+- correctness: The code correctly implements the `Farm` class, including the `__init__`, `add_animal`, `get_animal_types`, and `get_short_info` methods.  The `get_info` method largely functions as expected but misses precise formatting requirements specified in the example. The bonus features are implemented correctly. The class methods directly address the functionalities described in the chapter content (Classes and Objects, Dictionaries, String Formatting, Methods, List manipulation).  The 10% deduction reflects the formatting discrepancies in the `get_info` method, which deviates from the example output's specifications.
+- readability: The code is well-structured and easy to understand.  Variable and method names are descriptive. The code is well-commented, making it easy to follow the logic and understand the purpose of each part of the code.
+- performance: The code's performance is efficient.  The algorithms used are straightforward and have a time complexity appropriate for the task. There are no noticeable performance bottlenecks.
+- security: The code doesn't involve any security concerns as it's purely functional and doesn't interact with external systems or handle sensitive data.
+
