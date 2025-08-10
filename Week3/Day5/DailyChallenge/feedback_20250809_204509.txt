@@ -1,0 +1,14 @@
+URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week3/Day5/DailyChallenge/DailyChallenge.py
+suggestions for improvement:
+- In `word_frequency`, returning `None` when a word is not found is acceptable, but a more informative return such as 0 or an empty string would be better.
+- The `most_common_word` method could be improved by handling edge cases such as empty strings or texts with only one word.
+- The stop words list in `remove_stop_words` is very limited.  Consider using a more comprehensive list from the NLTK library or a similar resource.
+- Add error handling (e.g., `try-except` block) around file opening in `from_file` to gracefully handle cases where the file does not exist or is inaccessible.
+- The `unique_words` method currently doesn't handle case-sensitivity. Consider adding an option to make it case-insensitive or case-sensitive according to user needs.
+- Improve the comments and variable names to enhance clarity. Some variable names are a bit vague (e.g. `cleaned`).
+Brief justification:
+- correctness: The code implements all the required classes and methods as specified in the instructions. The `Text` class correctly handles string analysis, and the `TextModification` class effectively performs text cleaning operations. The class methods are correctly implemented, and the use of sets and dictionaries enhances the algorithm efficiency.  The only minor issue is the limited stop word list. The file handling is robust except for the missing error handling.
+- readability: The code is generally well-structured and easy to follow. However, some variable names could be more descriptive, and comments could be added to clarify certain sections. The logic is mostly clear, but in a few places, it could benefit from further explanation, improving its overall readability.
+- performance: The performance of the code is acceptable for smaller text files. However, for large text files, the efficiency of methods like `most_common_word` which iterates multiple times, could be improved.  Using `collections.Counter` for word frequency counting would significantly improve performance. The current implementation of removing punctuation iterates character by character which is less efficient than using a regular expression.
+- security: The code doesn't have any obvious security vulnerabilities. The file handling uses a `with` statement, ensuring the file is properly closed, and the encoding is specified to prevent errors.  No external inputs are directly used in a way that could expose the application to vulnerabilities.
+
