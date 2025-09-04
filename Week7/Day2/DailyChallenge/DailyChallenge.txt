@@ -1,0 +1,19 @@
+Real World Data Analysis Scenarios (Homework)
+
+Step1: I work for the UN so I picked a UN80 related article about current reform efforts.
+
+Step 2: Analyze the role of data analysis
+
+Data analysis in the UN80 Initiative mapped over 40,000 mandates, 27,000 meetings, and thousands of pages of reports to reveal duplication, fragmentation, and inefficiency. By tracking resolution length, report frequency, and funding sources, the review quantified where resources were being wasted. This systematic approach provided the evidence base for reform proposals like digital mandate registries and fewer, more targeted reports.
+
+Step 3: Impact of data analysis
+
+Without data analysis, concerns about inefficiency would remain vague, leaving reform debates stuck at the anecdotal level. The numbers—such as the 55% rise in resolution length since 2020—turned abstract problems into measurable evidence that Member States could not ignore. Data transformed the reform agenda from rhetoric into actionable proposals supported by facts.
+
+Step 4: What would have been different without it?
+
+Without analysis, duplication and outdated mandates would likely continue unchecked, costing the UN hundreds of millions annually. Reform proposals would lack credibility and fail to gain Member State support. In short, the UN would remain burdened by process-heavy mandates instead of delivering stronger results on the ground.
+
+Step 5: Significance of data analysis
+
+Data analysis in this case shows how evidence-based reviews can modernize even the most complex global organizations. By identifying inefficiencies and proposing measurable reforms, it helps the UN focus resources where they matter most. This demonstrates the critical role of data in shaping better governance and accountability at the international level.
