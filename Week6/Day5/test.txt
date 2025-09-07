@@ -1,0 +1,135 @@
+
+
+get("https://v3.football.api-sports.io/status");
+
+// response
+{
+    "get": "status",
+    "parameters": [],
+    "errors": [],
+    "results": 1,
+    "response": {
+        "account": {
+            "firstname": "xxxx",
+            "lastname": "XXXXXX",
+            "email": "xxx@xxx.com"
+        },
+        "subscription": {
+            "plan": "Free",
+            "end": "2020-04-10T23:24:27+00:00",
+            "active": true
+        },
+        "requests": {
+            "current": 12,
+            "limit_day": 100
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+
+url = 'https://v3.football.api-sports.io/fixtures'
+params = {"fields": "date,league,team,subregion,population"} #i inserted based on the 'test' with France.
+
+response = requests.get(url, params, timeout=20)
+
+#the next two lines pull the API data into the json file
+data = response.json()
+
+with open(f'{dir_path}/countries.json', "w", encoding="utf-8") as f:
+    json.dump(data, f, indent=4, ensure_ascii=False)
+
+
+
+league	
+integer
+The id of the league
+
+
+
+date	
+stringYYYY-MM-DD
+A valid date
+
+
+
+date=YYYY-MM-DD
+league={league_id} + season=YYYY
+team={team_id}
+next=N / last=N (max two digits)
+from=YYYY-MM-DD & to=YYYY-MM-DD (range)
+status=NS-FT-PST (hyphen = multiple)
+live=all or live=39-140 (league IDs)
+ids=710687-710688 (multiple fixture IDs)
+timezone=Europe/Vienna
+
+
+    QUERY PARAMETERS
+
+id	
+integer
+Value: "id"
+The id of the fixture
+ids	
+stringMaximum of 20 fixtures ids
+Value: "id-id-id"
+One or more fixture ids
+live	
+string
+Enum: "all" "id-id"
+All or several leagues ids
+date	
+stringYYYY-MM-DD
+A valid date
+league	
+integer
+The id of the league
+season	
+integer = 4 characters YYYY
+The season of the league
+team	
+integer
+The id of the team
+last	
+integer <= 2 characters
+For the X last fixtures
+next	
+integer <= 2 characters
+For the X next fixtures
+from	
+stringYYYY-MM-DD
+A valid date
+to	
+stringYYYY-MM-DD
+A valid date
+round	
+string
+The round of the fixture
+status	
+string
+Enum: "NS" "NS-PST-FT"
+One or more fixture status short
+venue	
+integer
+The venue id of the fixture
+timezone	
+string
+A valid timezone from the endpoint Timezone
+HEADER PARAMETERS
+
+x-rapidapi-key
+required
+string
+Your Api-Key
