@@ -1,0 +1,13 @@
+URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week1/Day4/DailyChallenge/DailyChallenge.py
+suggestions for improvement:
+- Challenge 1: The loop in Challenge 1 incorrectly terminates if a multiple exceeds the length instead of checking if the *number of multiples* exceeds the length.  It should continue generating multiples until the list reaches the specified length.
+- Challenge 1: Add more descriptive variable names (e.g., `number_of_multiples` instead of `length`).
+- Challenge 1: Include error handling for non-integer inputs.
+- Challenge 2: The code is functionally correct but could be made more concise and readable using techniques like list comprehension.
+- Challenge 2: Add comments to clarify the logic, especially for the `if` condition.
+Brief justification:
+- correctness: Challenge 1 mostly addresses the core requirement of generating a list of multiples. However, the stopping condition is flawed, leading to incorrect output when the multiple itself exceeds the length rather than the count of multiples. Challenge 2 correctly removes consecutive duplicate letters as specified in the instructions.  Both challenges directly address the specified functionality in the chapter content, using appropriate Python constructs like loops, lists, strings, and input/output.
+- readability: The code is generally understandable but could benefit from more descriptive variable names and comments to improve clarity. The logic in Challenge 1 is slightly harder to follow due to the flawed termination condition. Challenge 2's logic is clear but could be improved with comments clarifying the purpose of certain sections.
+- performance: The code's performance is efficient for the task. Both challenges use iterative approaches with time complexity directly proportional to the input size.  There's no obvious unnecessary computation.
+- security: The code does not introduce any security vulnerabilities. It only deals with user input and string manipulations, without accessing external resources or performing potentially unsafe operations.
+
