@@ -1,0 +1,28 @@
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week14/Day3/ExerciseXP/Week14Day3XP1.xlsx
+suggestions for improvement:
+- The submission should include the actual Excel formulas used in cells C4 and D4, not just the resulting values.
+- The submitted content is presented as the output/results of applying formulas, but not the formulas themselves.
+Correctness: 0%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week14/Day3/ExerciseXP/Week14Day3XP2.xlsx
+suggestions for improvement:
+- The submission contains data, but no code or explanation related to the exercises, so it cannot be evaluated for correctness, readability, performance, or security.
+- The submission should include code or clear, step-by-step instructions on how to complete the exercises using Excel functions, Pivot Tables, and Slicers as described in the chapter content.
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week14/Day3/ExerciseXP/Week14Day3XP3.xlsx
+suggestions for improvement:
+- The provided text appears to be a dataset of movies, and not code related to advanced excel manipulation and data analysis. Since it does not relate to the chapter, the code must score 0%
+Correctness: 0%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week14/Day3/ExerciseXP/Week14Day3XP4.xlsx
+suggestions for improvement:
+- The provided data, while resembling a dataset that could be used with Excel, does not include any code attempting to solve any of the exercises outlined in the prompt.
+- Since there is no attempt to use the functions described in the prompt, no specific improvements are possible.
+Correctness: 0%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week14/Day3/ExerciseXP/Week14Day3XP5+-+Filming+Over.xlsx
+suggestions for improvement:
+- Failed to download file - Status: 404
+Correctness: N/A%
+-----
