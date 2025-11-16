@@ -1,0 +1,17 @@
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week3/Day5/ExerciseXP/ExerciseXP2.json
+suggestions for improvement:
+- The provided code is a JSON object, not Python code.  The exercise requires writing Python code to manipulate a JSON string.  The JSON object itself is a correct representation of the modified data (after adding the birthdate) but does not fulfill the exercise requirement of writing python code.
+- The code should include error handling for file operations (e.g., `try...except` blocks to handle `FileNotFoundError`, `IOError`, etc.).
+- The code should explicitly show the steps of loading the JSON string using `json.loads()`, accessing the 'salary' key, adding the 'birth_date' key and saving it to file using `json.dump()`.
+Correctness: 80%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week3/Day5/ExerciseXP/ExercisesXP.py
+suggestions for improvement:
+- In `get_words_from_file`, handle the `FileNotFoundError` exception.  The current code will crash if the `words.txt` file is missing.
+- Improve error handling in `main` by providing more informative error messages. For example, instead of 'Bummer, game over', indicate the specific input error (e.g., 'Invalid input: Not an integer').
+- The `get_words_from_file` function currently generates a sentence of length 10 by default and takes an optional length argument, this may conflict with the instructions.  Consider simplifying this or making the length argument required.
+- Add input validation in Exercise 2 to handle unexpected JSON input formats to avoid crashes.
+- In `main()`, use a `while` loop to continuously prompt the user for input until a valid input is provided, avoiding abrupt termination.
+- Consider using more descriptive variable names (e.g., instead of `message`, use `sentence_length_input`).
+Correctness: 90%
+-----

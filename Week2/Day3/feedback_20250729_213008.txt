@@ -1,0 +1,12 @@
+URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week2/Day3/miniproject.py
+suggestions for improvement:
+- The `player_input` function could be improved by using a more user-friendly way to get input (e.g., asking for row and column numbers instead of a single number from 1 to 9). This would make the game easier to understand and play.
+- Add input validation to handle non-numeric input in `player_input`.
+- The code could benefit from more comments explaining the logic, especially within the `check_win` function.  While the logic is correct, it's not immediately obvious to a reader how it accounts for all winning conditions.
+- Consider adding a function to clear the board to allow the users to play multiple games without restarting the script.
+Brief justification:
+- correctness: The code implements a Tic-Tac-Toe game with the core features described in the Chapter Content/Questions. It uses 2D lists, loops, conditional statements, functions, and user input, all as specified.  The win condition checking is thorough, and the tie check is accurate. However, the user interface for selecting positions could be improved for clarity and user experience.
+- readability: The code is generally well-structured and easy to follow, with functions separating the different parts of the game logic.  However, improvements to the user input and comments would increase readability significantly.
+- performance: The code's performance is acceptable for a simple game like Tic-Tac-Toe. The win-checking algorithm is reasonably efficient, although optimization is not crucial for this simple application.
+- security: The code doesn't have any apparent security vulnerabilities. It relies on user input but doesn't perform any operations that could be exploited.
+
