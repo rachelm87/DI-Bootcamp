@@ -1,0 +1,62 @@
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week1/Day1/ExerciseXP/ExerciseXP1.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week1/Day1/ExerciseXP/ExerciseXP2.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week1/Day1/ExerciseXP/ExerciseXP3.py
+suggestions for improvement:
+- The code correctly predicts the output for the first four comparisons.  However, it incorrectly states that comparing a string to an integer results in a TypeError.  Python will perform a comparison, resulting in False, because the types are different.
+- Add comments explaining why each comparison yields the result it does, making the code easier to understand and serve as a better learning example.
+- The code lacks clear separation between the prediction statements (comments) and the actual output. Consider formatting this to improve clarity.
+Correctness: 80%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week1/Day1/ExerciseXP/ExerciseXP4.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week1/Day1/ExerciseXP/ExerciseXP5.py
+suggestions for improvement:
+- The instructions for Exercise 5 specified creating a variable called `info` which contains an *interesting* sentence about yourself.  The provided code creates a factual sentence. While correct, it doesn't fully meet the 'interesting' requirement.
+- Use of f-strings is good for readability. Consider adding more descriptive variable names (e.g., `my_name` to `userName`).
+- The age and shoe size are stored as strings. It's better practice to store numerical data as integers where appropriate (unless you anticipate needing string operations on them later)
+Correctness: 80%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week1/Day1/ExerciseXP/ExerciseXP6.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week1/Day1/ExerciseXP/ExerciseXP7.py
+suggestions for improvement:
+- Add error handling for non-integer input.  The current code will crash if the user enters text.
+- Use more descriptive variable names (e.g., `user_number` instead of `number`).
+Correctness: 100%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week1/Day1/ExerciseXP/ExerciseXP8.py
+suggestions for improvement:
+- The line `print(input)` is incorrect.  It prints the function `input`, not the user's input.  It should be removed or replaced with a variable storing the user's input which can be printed later.
+- The code only partially addresses Exercise 8. While it correctly asks for the user's name and compares it to the programmer's name, the 'funny message' aspect is simplistic and could be improved.
+- Improve the messages for a more engaging user experience.  Instead of just 'Our names are great!' and 'too bad!', make the messages more creative and fun.
+- Use more descriptive variable names. For example, instead of `a` and `b`, use names like `number1` and `number2`.
+Correctness: 80%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week1/Day1/ExerciseXP/ExerciseXP9.py
+suggestions for improvement:
+- The code could include more robust error handling.  For instance, it might check if the user inputs a valid integer. If a non-integer is entered, the `int()` conversion will raise a `ValueError`, which should be handled gracefully.
+- A more descriptive variable name than `your_height` could improve readability (e.g., `user_height_cm`).
+Correctness: 100%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week1/Day1/ExerciseXP/all_exercises.py
+suggestions for improvement:
+- In Exercise 1, while the code produces the correct output, it could be slightly improved by using a more concise method for printing multiple lines of text (e.g., using a loop or list comprehension).
+- Exercise 3: The code correctly predicts the output of most comparisons; however, it incorrectly states that comparing a string to a number results in a TypeError.  Python will perform the comparison (and return False).
+- In Exercise 8, the code doesn't use the `input()` value correctly; it prints the function itself, not the user's input.  Also, a more robust comparison that ignores case differences would be beneficial.
+- Overall, the code lacks comments explaining the logic and purpose of each section.  Adding comments would improve readability.
+Correctness: 90%
+-----

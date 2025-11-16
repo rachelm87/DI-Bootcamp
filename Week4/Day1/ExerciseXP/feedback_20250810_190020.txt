@@ -1,0 +1,18 @@
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week4/Day1/ExerciseXP/anagram_checker.py
+suggestions for improvement:
+- The `anagram_checker.py` file should be separated from the UI logic in `anagrams.py` as instructed.
+- Error handling for file I/O (e.g., file not found) is missing in `__init__`.
+- The `get_anagrams` method has a performance bottleneck;  consider using a more efficient data structure for faster lookups (like a set or dictionary).
+- The UI in `anagrams.py` is completely missing.  The instructions clearly state to create a separate file for UI interactions.
+- Add more robust input validation in the (missing) UI to handle various edge cases more effectively.
+Correctness: 85%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week4/Day1/ExerciseXP/anagrams.py
+suggestions for improvement:
+- Improve error handling for file I/O operations in `AnagramChecker`'s `__init__` method.  Handle potential `FileNotFoundError` exceptions.
+- The `get_anagrams` method could be optimized for performance, especially with large word lists. Consider using more efficient algorithms or data structures.
+- Add more comprehensive input validation in `anagrams.py`. For example, check for empty strings.
+- Add docstrings to methods in both files for better readability and maintainability.
+- Consider using a more descriptive variable name than `confirming` in `anagrams.py`.
+Correctness: 95%
+-----

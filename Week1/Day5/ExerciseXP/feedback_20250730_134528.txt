@@ -1,0 +1,13 @@
+URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week1/Day5/ExerciseXP/ExercisesXP.py
+suggestions for improvement:
+- In Exercise 3, the code prints the U.S. colors twice in a loop.  It should print them once.  Also, consider using f-strings for better readability in the print statements throughout the code.
+- In Exercise 3, counting the total keys includes a nested loop that's inefficient and makes it harder to follow.  A more straightforward approach would be to simply use `len(brand_dict)`. However, the nested dictionaries need to be counted in the total, so this solution is not straightforward.
+- Exercise 3: The nested loop to print keys isn't the most efficient way to achieve that.  Use the `keys()` method and loop through that. The nested loop also does not adhere to good practice and is difficult to read.
+- In Exercise 3, improve the way you print the major colors in the US. The current approach is repetitive and not the most efficient way to do it. Use more concise code.
+- Throughout the code, use more descriptive variable names to improve readability. For instance, instead of `user_index`, consider something like `character_to_index_mapping`.
+Brief justification:
+- correctness: The code correctly implements all four exercises, addressing the core functionalities described in the Chapter Content/Questions.  Minor issues with output formatting and inefficient loops in Exercise 3 reduce the score slightly.  The code demonstrates understanding of dictionaries, loops, conditionals, and nested data structures as intended in the chapter.
+- readability: The code is generally readable, but some areas could be improved with more descriptive variable names and a more efficient structure for loops in Exercise 3.  The use of f-strings in some cases and not others makes the code less consistent in style. 
+- performance: The code's performance is good for its size. There are no major performance bottlenecks. The algorithm is simple and doesn't involve computationally expensive operations.
+- security: There are no security concerns in this code. It's purely functional and doesn't interact with external systems or handle sensitive data.
+
