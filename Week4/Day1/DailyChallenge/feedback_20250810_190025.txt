@@ -1,0 +1,11 @@
+URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week4/Day1/DailyChallenge/DailyChallenge.py
+suggestions for improvement:
+- The quiz answers are good, but could benefit from more concise and precise wording.  For example, the explanation of encapsulation could be shorter and more focused on the concept of data hiding.
+- The `deal` method in the `Deck` class uses `random.choice`, which is inefficient for dealing cards sequentially.  It's better to use `pop()` to remove and return the top card for a more efficient and realistic card dealing simulation.
+- Add some error handling to the `deal` method to handle the case where the deck is empty.  Currently, it will throw an error if you try to deal from an empty deck.
+Brief justification:
+- correctness: The code correctly implements a `Card` class and a `Deck` class as specified in Part 2. The `Deck` class does not inherit from the `Card` class. The `shuffle` method correctly shuffles a full deck of 52 cards. The `deal` method deals a card but its method of dealing is not optimal. The quiz answers, although correct in essence, lack precision and conciseness in some explanations. This makes the correctness score less than 100%.
+- readability: The code is well-structured and easy to understand. The variable names are descriptive, and the code is well-commented. The quiz answers are also generally clear, although some improvements could be made for conciseness and precision.
+- performance: The `shuffle` method has good performance. However, the `deal` method uses `random.choice`, which has a time complexity of O(n) where n is the number of cards remaining in the deck.  Using `pop()` would improve performance to O(1).
+- security: The code does not have any obvious security vulnerabilities.
+

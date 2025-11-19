@@ -1,0 +1,10 @@
+URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week13/Day5/DailyChallenge/Week13Day5DC.ipynb
+suggestions for improvement:
+- Consider consolidating the header formatting into a single loop or function for better readability.
+- Using a dictionary directly instead of pandas might slightly improve performance for this small dataset.
+Brief justification:
+- correctness: The code fulfills all requirements of the task: creating an Excel file with a 'Grades' sheet, populating it with the specified data structure, adding average formulas, and applying bold/colored formatting to the header row. The output DataFrame shown confirms the correct data and formatting.
+- readability: The code is well-structured and uses meaningful variable names. However, the header formatting could be slightly improved for better readability.
+- performance: The code uses pandas, which might be slightly less performant than directly writing to the excel sheet. However, for this small dataset, the performance difference is negligible.
+- security: The code does not handle any external input or user-provided data, so there are no security concerns.
+

@@ -1,0 +1,15 @@
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week3/Day4/ExerciseXP/ExerciseXP.py
+suggestions for improvement:
+- In `Currency.__repr__`, the conditional statement to append 's' can be simplified using f-string formatting directly.
+- The error handling in `__add__` and `__iadd__` could be improved by providing more informative error messages, specifying the incompatible currencies.
+- In Exercise 3, the `print` statement inside the loop is unnecessary; it prints the string multiple times during its construction. Move it outside the loop.
+- The Exercise 5 solution doesn't explicitly display the time remaining, only the number of days and seconds. Enhance it to show a more user-friendly representation of the time left (e.g., years, months, days, hours, minutes).
+- Add comprehensive docstrings to all functions to improve readability and understanding. 
+- Exercise 2 is missing the `func.py` file, which is essential to make it executable. The correctness score is penalized due to the missing file.
+Correctness: 90%
+-----
+URL: URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week3/Day4/ExerciseXP/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
