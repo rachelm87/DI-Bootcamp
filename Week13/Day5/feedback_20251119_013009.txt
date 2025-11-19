@@ -1,0 +1,12 @@
+URL: https://github.com/rachelm87/DI-Bootcamp/blob/main/Week13/Day5/Week13Day5MiniProjectDC.ipynb
+suggestions for improvement:
+- The code does not implement the extraction of data such as plan names, features, and pricing as outlined in the task.
+- The code does not include storing and saving the data into a structured format like a CSV file.
+- The code does not close the Selenium WebDriver after usage.
+- The code has some errors related to the connection that need to be handled for a successful execution
+Brief justification:
+- correctness: The code initializes Selenium, loads a webpage, and attempts to find and click a 'Show more results' button to load more data. It then uses BeautifulSoup to parse the HTML and find product cards. However, it doesn't extract plan names, features, and pricing, or save the data, only finding `product-card` elements. Therefore, the correctness is only partial (50%) as it performs some, but not all, of the required tasks.
+- readability: The code is reasonably readable, with comments and clear variable names, but could be improved by adding more comments to explain the purpose of each section. There is markdown documentation, but it duplicates the task description. (70%)
+- performance: The code includes a `time.sleep(2)` which can impact performance. Using explicit waits might be a better approach. Overall the performance is acceptable, but there are some areas to improve. (60%)
+- security: The code uses `ignore-certificate-errors` and `ignore-ssl-errors`, which might reduce security. However, since it's running in headless mode and scraping data, the security implications are limited. (70%)
+
